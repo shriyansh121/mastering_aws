@@ -1,0 +1,114 @@
+# (key)name: Shriyansh(value)
+age: 18
+city: Ahmedabad
+
+skills:
+  - Python
+  - JavaScript
+  - C++
+  - HTML/CSS
+
+person:
+  name: Shriyansh
+  age: 21
+  contact:
+    email: shriyanshsen10@gmail.com
+    phone: 8849225502
+  address: Vastral, Ahmedabad, Gujarat, India
+
+# this is a comment
+description_folded: >
+  This is a long
+  description that will
+  be folded into a single line.
+
+description_literal: |
+  This description
+  will preserve
+  all line breaks.
+
+
+
+username: code_master
+id: 42
+is_admin: false
+
+list_of_fruits:
+  - Apple
+  - Banana
+  - Cherry
+
+contact:
+  phone: 555-1234
+  email: user@email.com
+
+emplotees:
+  - name: Jane description
+    position: Developer
+
+open_settings:
+  max_retries: 5
+  timeout_sex: 2.5
+  log_level: DEBUG
+
+matrix:
+  - 
+    - 1
+    - 2
+    - 3
+  - 
+    - 4
+    - 5
+    - 6
+
+
+motto: "Learn YAML: it's easy!"
+
+# The port for the web server
+port: 8080
+
+poem: |
+  "Roses are red,"
+  "Violets are blue,"
+  "YAML is simple."
+
+project:
+  name: MyService
+  config: 
+    version: v1.1
+    services:
+      - db 
+      - api
+  
+# Map
+user: 
+  name: Alice
+  age: 30
+  email:
+
+# Sequences
+fruits:
+  - Apple
+  - Banana
+  - Cherry
+
+# Challenge 1:
+deployment: 
+  service1:
+    - api-gateway:
+        config:
+          ports: 
+            - 80
+            - 443
+  
+    - database:
+        user-db:
+          config:
+            volume_size: 200G.
+          
+# Challenge 2:
+rbac:
+  roles:
+    - name: administrator
+      permissions: 
+        - 
